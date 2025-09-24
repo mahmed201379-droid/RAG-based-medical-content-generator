@@ -23,7 +23,7 @@ The generated presentation can be downloaded directly as a `.pptx` file.
 - **Backend**: FastAPI (Python)
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
 - **Presentation Generation (Frontend)**: PptxGenJS
-- **LLM/AI**: The core logic for generation likely uses Large Language Models, with observability potentially provided by LangSmith.
+- **LLM/AI**: The core logic for generation uses Large Language Model(llama-4-scout-17b-16e-instruct) by Groq inference api and sentence transformer embedding model(all-MiniLM-L12-v2) from Hugging Face.
 
 ## Project Setup
 
@@ -32,7 +32,6 @@ Follow these instructions to get the project running on your local machine.
 ### Prerequisites
 
 - Python 3.10
-- An API key for LangSmith (if used for tracing).
 
 ### 1. Clone the Repository
 

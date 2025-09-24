@@ -31,7 +31,7 @@ Follow these instructions to get the project running on your local machine.
 
 ### Prerequisites
 
-- Python 3.10 or higher
+- Python 3.10
 - An API key for LangSmith (if used for tracing).
 
 ### 1. Clone the Repository

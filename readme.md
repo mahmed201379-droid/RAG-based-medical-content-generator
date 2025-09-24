@@ -114,5 +114,5 @@ GROQ_API_KEY="Your_api_key"
 3.  Select a book from the dropdown menu.
 4.  Once a book is selected, the chapter dropdown will be populated. Select a chapter.
 5.  **For MCQs**: Enter the number of questions you want and click "Generate MCQs".
-6.  **For Presentations**: Click "Generate Presentation".
+6.  **For Presentations**: Click "Make Presentation".
 7.  The results will be displayed on the page. For presentations, a "Download as PowerPoint" button will appear.

@@ -1,4 +1,4 @@
-# Medical Question Generation Tool
+# Medical Content Generation Tool
 
 This web application helps medical students and educators by automatically generating Multiple Choice Questions (MCQs) and presentation slides from medical textbooks in PDF format.
 
@@ -37,7 +37,7 @@ Follow these instructions to get the project running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/mahmed201379-droid/RAG-based-medical-content-generator.git
 ```
 
 ### 2. Backend Setup

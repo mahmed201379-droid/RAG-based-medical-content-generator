@@ -20,10 +20,13 @@ The generated presentation can be downloaded directly as a `.pptx` file.
 
 ## Tech Stack
 
-- **Backend**: FastAPI (Python)
+- **Backend**: FastAPI
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
+- **RAG Pipeline**: LangChain
+- **Vector Store**: FAISS
 - **Presentation Generation (Frontend)**: PptxGenJS
-- **LLM/AI**: The core logic for generation uses Large Language Model(llama-4-scout-17b-16e-instruct) by Groq inference api and sentence transformer embedding model(all-MiniLM-L12-v2) from Hugging Face.
+- **LLM**: llama-4-scout-17b-16e-instruct( via Groq inference api)
+- **Embeddings**: Sentence Transformer (all-MiniLM-L12-v2) from Hugging Face
 
 ## Project Setup
 
@@ -37,6 +40,9 @@ Follow these instructions to get the project running on your local machine.
 
 ```bash
 git clone https://github.com/mahmed201379-droid/RAG-based-medical-content-generator.git
+```
+```bash
+cd RAG-based-medical-content-generator
 ```
 
 ### 2. Backend Setup
